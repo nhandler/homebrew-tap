@@ -13,7 +13,7 @@ class Uq < Formula
     bin_path.install buildpath.children
     cd bin_path do
       system "dep", "ensure", "-vendor-only"
-      system "go", "build", "-o", bin/"uq", "."
+      system "go", "build", "-ldflags", "-X main.version=0.0.3", "-o", bin/"uq", "."
       prefix.install_metafiles
     end
   end
