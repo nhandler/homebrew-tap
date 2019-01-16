@@ -1,9 +1,8 @@
 class Uq < Formula
   desc "Universal serialized data reader to JSON"
   homepage "https://github.com/solarkennedy/uq"
-  url "https://github.com/solarkennedy/uq/archive/2cc230bbf695a83b7939adea3b2cdf7952df664e.tar.gz"
-  version "0.0.2"
-  sha256 "ca4a92010344ce91e85c2ea7e7fab1030f9eb2b57c7ad68aecdcc0359de57c1a"
+  url "https://github.com/solarkennedy/uq/archive/0.0.3.tar.gz"
+  sha256 "45dc01355ffb0c415777b12442efb14bef8dafe03c79cf3f016f0300ab89bfce"
 
   depends_on "dep" => :build
   depends_on "go" => :build
